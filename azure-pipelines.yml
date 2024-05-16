@@ -26,6 +26,6 @@ steps:
       git remote set-url --push origin git@github.com:scottmack111/scottmack111.github.io.git
       echo "set url done"
       git remote -v
-      git push origin HEAD:master
+      git push origin HEAD:main
       echo "push done"
     displayName: 'Publish GitHub Pages'
